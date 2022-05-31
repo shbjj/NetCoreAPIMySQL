@@ -98,6 +98,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tension\ZonaRevision2.cs" />
     <Compile Include="Tension\ZonaRevision1.cs" />
+    <Compile Include="Tornilleria\ElementosTornilleria.cs" />
+    <Compile Include="Tornilleria\ElementoTornilleria.cs" />
+    <Compile Include="Tornilleria\Fuerzas.cs" />
+    <Compile Include="Tornilleria\Perfil.cs" />
+    <Compile Include="Tornilleria\RevisionAplastamiento.cs" />
+    <Compile Include="Tornilleria\RevisionResistenciaBloqueCortante.cs" />
+    <Compile Include="Tornilleria\RevisionResistenciaCortante.cs" />
+    <Compile Include="Tornilleria\RevisionResistenciaDesgarre.cs" />
+    <Compile Include="Tornilleria\Tornillo.cs" />
     <Compile Include="TrabeColumna\BloqueDeCortante.cs" />
     <Compile Include="TrabeColumna\Compresion.cs" />
     <Compile Include="TrabeColumna\Cortante.cs" />
@@ -112,6 +121,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
